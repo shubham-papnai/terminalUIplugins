@@ -1,0 +1,26 @@
+[
+  {
+    "name": "WEATHER",
+    "description": "Get current weather for a city",
+    "endpoint": "https://popani-internal-app.subscriptinator.workers.dev/api/weather",
+    "method": "GET",
+    "args": [
+      {
+        "name": "city",
+        "type": "string",
+        "required": true
+      }
+    ]
+  }
+  
+  {
+    "name": "DEFINE",
+    "description": "Look up dictionary definitions for a word",
+    "endpoint": "https://popani-internal-app.subscriptinator.workers.dev/api/define",
+    "method": "GET",
+    "args": [
+      { "name": "word", "type": "string", "required": true }
+    ]
+  }
+  
+  ]
